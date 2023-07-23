@@ -1,0 +1,73 @@
+.navbar_container {
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.logo_container p {
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.logo_container img {
+    width: 48px;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav_links li {
+
+    font-size: 1.5rem;
+
+    font-size: 900;
+    margin-inline: 30px;
+    cursor: pointer;
+}
+
+.nav_links li:hover {
+    color: brown;
+}
+
+.mobile_Menu_Icon {
+    display: none;
+    font-size: 2rem;
+}
+
+
+
+
+/* Styles for screens998px and below (mobile and tablet) */
+@media (max-width: 998px) {
+    .nav_links {
+        flex-direction: column;
+
+    }
+
+    .mobile_Menu_Icon {
+        display: inline-block;
+    }
+
+    .show {
+        display: inline-block;
+    }
+
+    .hide {
+        display: none;
+    }
+}
