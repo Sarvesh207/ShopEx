@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./navabar.css";
+import "./Navabar.css";
 import { BsCart4 } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { CgClose, CgMenu } from "react-icons/cg";
